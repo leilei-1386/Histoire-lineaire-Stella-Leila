@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+10&display=swap');
+
+
+/* Remove scroll */
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  height: 100%;
+
+  font-family: "Jersey 10", sans-serif;
+  color: white;
+}
+
+/* Container for bottom centered dialogue */
+#dialogue-container {
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  pointer-events: none; /* only box reacts */
+}
+
+/* Dialogue box */
+#dialogue-box {
+  pointer-events: auto;
+  width: 800px;
+  padding: 20px;
+  height: 150px;            /* fixed height */
+  background: rgba(0,0,0,0.6);
+  color: white;
+  font-size: 35px;
+  position: relative;
+}
+
+/* Name box */
+#name-box {
+  position: absolute;
+  top: -30px;
+  left: 20px;
+  background: rgba(0,0,0,0.8);
+  padding: 4px 10px;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 6px;
+  border: 2px solid white;
+}
+
+/* Arrow */
+#next-arrow {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 30px;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+#next-arrow:hover {
+  transform: scale(1.2);
+}
