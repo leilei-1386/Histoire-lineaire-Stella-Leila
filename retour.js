@@ -1,11 +1,11 @@
 // Dialogue array
 const dialogues = [
-  { name: "Moi", text: "Maman… tu sais où il est, mon frère ?" },
-  { name: "Maman", text: "Mais j’en sais rien, moi. Il a encore dû partir traîner je ne sais où… sûrement en train de jouer dans le jardin, qui sait." },
-  { name: "Moi", text: "… Sérieusement ? Mais… il aurait au moins dû me dire quelque chose." },
-  { name: "Moi", text: "J’ai juste… j’ai un mauvais pressentiment." },
-  { name: "Maman", text: "Arrête de t’inquiéter comme ça. Il reviendra bien quand il aura fini ses bêtises." },
-  { name: "Moi", text: "… j’espère. Parce que… j’ai vraiment aucune idée d’où il est." }
+  { name: "Moi", text: "J'ai verifié dehors, je ne l'ai pas retrouvé. Tu l'as vraim–" },
+  { name: "Moi", text: "Maman?" },
+  { name: "…", text: "*…*" },
+  { name: "Moi", text: "MAMAN?" },
+  { name: "Moi", text: "*C'est quoi ce bordel…*" },
+  { name: "Moi", text: "*J’entends quelque chose dans le hall… des bruits humides et croustillants…?*" },
 ];
 
 let index = 0;

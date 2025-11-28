@@ -1,11 +1,8 @@
 // Dialogue array
 const dialogues = [
-  { name: "Moi", text: "Maman… tu sais où il est, mon frère ?" },
-  { name: "Maman", text: "Mais j’en sais rien, moi. Il a encore dû partir traîner je ne sais où… sûrement en train de jouer dans le jardin, qui sait." },
-  { name: "Moi", text: "… Sérieusement ? Mais… il aurait au moins dû me dire quelque chose." },
-  { name: "Moi", text: "J’ai juste… j’ai un mauvais pressentiment." },
-  { name: "Maman", text: "Arrête de t’inquiéter comme ça. Il reviendra bien quand il aura fini ses bêtises." },
-  { name: "Moi", text: "… j’espère. Parce que… j’ai vraiment aucune idée d’où il est." }
+  { name: "Moi", text: "Maman… Il est où mon frère?" },
+  { name: "Maman", text: "Mais j'en sais rien moi, dans le jardin peut-être??" },
+  { name: "Moi", text: "Si tu le dis…" },
 ];
 
 let index = 0;
@@ -53,7 +50,7 @@ arrow.addEventListener("click", () => {
 
   index++;
   if (index >= dialogues.length) {
-    window.location.href = "dehors.html"; // next page
+    window.location.href = "page2.html"; // next page
     return;
   }
 

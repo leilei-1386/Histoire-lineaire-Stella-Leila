@@ -1,8 +1,6 @@
 // Dialogue array
 const dialogues = [
-  { name: "Moi", text: "mmh…" },
-  { name: "Moi", text: "…nulle part." },
-  { name: "Moi", text: "Il est où ce gosse serieusement?" },
+  { name: "…", text: "…" },
 ];
 
 let index = 0;
@@ -50,7 +48,7 @@ arrow.addEventListener("click", () => {
 
   index++;
   if (index >= dialogues.length) {
-    window.location.href = "page3.html"; // next page
+    window.location.href = "hall.html"; // next page
     return;
   }
 

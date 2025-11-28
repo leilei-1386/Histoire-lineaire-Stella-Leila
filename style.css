@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Jersey+10&display=swap');
 
-
 /* Remove scroll */
 html, body {
   margin: 0;
@@ -30,8 +29,8 @@ html, body {
   width: 800px;
   padding: 20px;
   height: 150px;            /* fixed height */
-  background: rgba(0,0,0,0.6);
-  color: white;
+  background: rgba(15, 13, 0, 0.6);
+  color: rgb(255, 255, 255);
   font-size: 35px;
   position: relative;
 }
@@ -39,14 +38,12 @@ html, body {
 /* Name box */
 #name-box {
   position: absolute;
-  top: -30px;
+  top: -15px;
   left: 20px;
   background: rgba(0,0,0,0.8);
-  padding: 4px 10px;
-  font-size: 18px;
+  padding: 6px 10px;
+  font-size: 24px;
   font-weight: bold;
-  border-radius: 6px;
-  border: 2px solid white;
 }
 
 /* Arrow */
