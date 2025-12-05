@@ -63,57 +63,6 @@ html, body {
   transform: scale(1.2);
 }
 
-/* Overlay full black */
-#power-cut {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: black;
-  opacity: 0;
-  pointer-events: none;
-  z-index: 9999; 
-  transition: opacity 0.1s linear;
-}
-
-/* Power cut flicker animation */
-.power-flicker {
-  animation: flicker 0.2s 7; /* 7 clignotements rapides */
-}
-
-@keyframes flicker {
-  0%, 100% { opacity: 0; }
-  25% { opacity: 0.7; }
-  50% { opacity: 0; }
-  75% { opacity: 0.5; }
-}
-
-/* Lampe torche */
-#flashlight {
-  position: absolute;
-  width: 120px;
-  height: 120px;
-  transform-origin: center center;
-  z-index: 10003; /* au-dessus de tout sauf UI si nécessaire */
-  pointer-events: none;
-  display: none; /* invisible avant appui sur F */
-}
-
-/* Cercle lumineux autour de la torche */
-.light-circle {
-  position: fixed;
-  width: 250px;   /* rayon du faisceau */
-  height: 250px;
-  border-radius: 50%;
-  pointer-events: none;
-  background: radial-gradient(circle, rgba(255,255,220,0.8) 0%, rgba(0,0,0,0.95) 80%);
-  mix-blend-mode: screen;
-  z-index: 10002; /* entre le blackout et la torche */
-  display: none;
-  filter: blur(15px); /* faisceau plus doux */
-}
-
 /* Background image (optional) */
 #background {
   position: fixed;
