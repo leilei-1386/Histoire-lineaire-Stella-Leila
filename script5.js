@@ -1,8 +1,8 @@
 // Dialogue array
 const dialogues = [
-  { name: "Moi", text: "Maman… Il est où mon frère?" },
-  { name: "Maman", text: "Mais j'en sais rien moi, dans le jardin peut-être??" },
-  { name: "Moi", text: "Si tu le dis…" },
+  { name: "Moi", text: "…" },
+  { name: "Moi", text: "…" },
+  { name: "Moi", text: "…" },
 ];
 
 let index = 0;
